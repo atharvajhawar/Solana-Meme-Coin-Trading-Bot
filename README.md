@@ -1,8 +1,10 @@
-Solana Meme Coin Trading Bot
+#Solana Meme Coin Trading Bot
 
 This bot scans for newly launched meme coins on Solana, filters them based on specific criteria, and executes trades using the Jupiter Swap API.
 
-Features
+
+
+#Features
 
 Scans new meme coins launching on Solana via DEX Screener & alternative APIs.
 
@@ -12,7 +14,9 @@ Executes buy/sell trades using the Jupiter Swap API.
 
 Stores trade history for analysis.
 
-Prerequisites
+
+
+#Prerequisites
 
 Before you start, ensure you have the following installed:
 
@@ -22,12 +26,16 @@ pip (Python package manager)
 
 PyCharm (Optional but recommended)
 
+
+
+
 Installation
 
 Clone the Repository:
 
-git clone https://github.com/your-repo/solana-meme-bot.git
-cd solana-meme-bot
+https://github.com/atharvajhawar/Solana-Meme-Coin-Trading-Bot.git
+
+
 
 Install Dependencies:
 
@@ -35,7 +43,7 @@ pip install -r requirements.txt
 
 Set Up Environment Variables (Optional)
 
-If needed, configure an .env file with API keys or RPC settings.
+
 
 Running the Bot
 
@@ -47,6 +55,9 @@ python main.py
 
 The bot will start scanning for new meme coins and executing trades.
 
+
+
+
 Troubleshooting
 
 No new tokens found? API might be down. Try restarting the bot later.
@@ -55,9 +66,14 @@ ImportError? Ensure you have installed dependencies using pip install -r require
 
 Jupiter API errors? Check Jupiter API Status.
 
+
+
 Contributing
 
 Feel free to fork the repo, make improvements, and submit pull requests!
+
+
+
 
 License
 
